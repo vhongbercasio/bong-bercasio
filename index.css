@@ -1,0 +1,176 @@
+/* font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;1,400&family=Raleway:ital,wght@0,200;0,300;0,500;1,400&family=Roboto:wght@300;400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    transition: all 1.5s linear;
+  }
+  
+
+.text-1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-2{
+    font-family: 'Open Sans', sans-serif;
+    color: green;
+}
+
+#text{
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.text-3{
+    font-family: 'Roboto', sans-serif;
+    color: tomato;
+}
+
+
+/* start navbar */
+#logo{
+    width: 150px;
+    height: 40;
+    background-color:black;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px ;
+    transition: all 0.3s ease;
+
+}
+#logo a{
+    color: blueviolet;
+}
+
+#logo a:hover{
+    background-color: aquamarine;
+}
+/* end navbar */
+
+#image{
+    height: 100px;
+    width: 100px;
+}
+/* start home styling */
+
+.home{
+    display: flex;
+    background: url("image/web3.jpg")no-repeat center;
+    height: 100vh;
+    min-height: 700px;
+    max-height: 720px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.home .max-width{
+    max-width: 1200px;
+    padding: 0 80px;
+    margin:auto;
+    margin: auto 5px auto 5px;
+    
+}
+
+.home .home-content .text-1{
+    font-size: 100px;
+    color: #00DDFF;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.home .home-content .text-2{
+    font-size: 50px;
+    font-weight: 700;
+
+
+}
+
+.home .home-content .text-3{
+    font-size: 25px;
+    
+}
+
+.home .home-content a{
+    display: inline-block;
+    background: red;
+    color: white;
+    font-size: 20px;
+    padding: 12px 36px;
+    margin-top: 36px;
+    border-radius: 10px;
+    transition: all 1s linear;
+    text-decoration: none;
+}
+/* end home styling */
+
+/* start styling about */
+
+    #about{
+        display: flex;
+        background: url("image/web5.jpg")no-repeat center;
+        height: 100vh;
+        min-height: 800px;
+        max-height: 720px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+/* end styling about */
+
+
+
+/* start styling skill */
+#skill{
+    display: flex;
+    background: url("image/banner-3.jpg")no-repeat center;
+    height: 100vh;
+    min-height: 700px;
+    max-height: 720px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* end styling skill */
+
+
+
+
+/* start contact styling */
+
+#contact{
+    display: flex;
+    background: url("image/banner-4.jpg")no-repeat center;
+    height: 100vh;
+    min-height: 700px;
+    max-height: 720px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+#contact img{
+    height: 50px;
+    width: 50px;
+}
+
+
+/* start footer */
+    #foter{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        background: #00DDFF;
+        text-align: center;
+   
+
+        
+    }
+
+/* end footer */
+
+/* end contact styling */
+
+
+
